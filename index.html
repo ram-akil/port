@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DELEX Web Development — modern, responsive websites built for growing businesses.">
+  <meta name="theme-color" content="#05070c">
+  <title>delexwebdev — Websites That Grow Businesses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="delexwebdev home">
+        <span class="brand-mark">D</span>
+        <span>delex<span>webdev</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Start a Project</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> WEB DEVELOPMENT STUDIO</p>
+          <h1>Websites that make your business <em>look ready to grow.</em></h1>
+          <p class="hero-text">
+            Modern, responsive and conversion-focused websites for businesses, creators and growing brands.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View My Work <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Let's Talk</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>5+</strong><span>Months Experience</span></div>
+            <div><strong>10+</strong><span>Websites Created</span></div>
+            <div><strong>100%</strong><span>Still Growing</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><small>delexwebdev</small></div>
+            <pre><code><span class="purple">const</span> <span class="blue">website</span> = {
+  design: <span class="green">"modern"</span>,
+  responsive: <span class="green">true</span>,
+  performance: <span class="green">"fast"</span>,
+  purpose: <span class="green">"growth"</span>
+};
+
+<span class="purple">build</span>(website);</code></pre>
+          </div>
+          <div class="floating-tag">DESIGN • DEVELOP • DELIVER</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> SELECTED WORK</p>
+            <h2>Built to feel <em>professional.</em></h2>
+          </div>
+          <p>Sample projects and website concepts created while building and improving the DELEX portfolio.</p>
+        </div>
+        <div class="work-grid">
+          <article class="project project-large">
+            <div class="project-visual visual-gym">
+              <span class="visual-label">FITNESS / BUSINESS</span>
+              <div class="mock-site">
+                <div class="mock-logo">IRON<span>LAB</span></div>
+                <div class="mock-lines"><i></i><i></i><i></i></div>
+                <div class="mock-button">JOIN NOW</div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><span class="tag">Responsive</span><span class="tag">Landing Page</span></div>
+              <h3>Fitness & Gym Website</h3>
+              <p>Bold visual hierarchy, membership-focused sections and a mobile-first experience.</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-visual visual-clinic">
+              <span class="visual-label">HEALTH / LOCAL BUSINESS</span>
+              <div class="clinic-card">
+                <div class="clinic-icon">✚</div>
+                <strong>CARE+</strong>
+                <small>Dental & Wellness</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><span class="tag">Clean UI</span><span class="tag">SEO Ready</span></div>
+              <h3>Clinic Website</h3>
+              <p>Trust-focused layout with clear calls to action and easy navigation.</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-visual visual-business">
+              <span class="visual-label">BUSINESS / BRAND</span>
+              <div class="business-card">
+                <span>GROW</span>
+                <strong>YOUR<br>BUSINESS.</strong>
+                <small>Digital presence that works.</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><span class="tag">Business</span><span class="tag">Modern</span></div>
+              <h3>Business Landing Page</h3>
+              <p>A polished online presence designed around services, credibility and enquiries.</p>
+            </div>
+          </article>
+        </div>
+        <p class="portfolio-note">More work is continuously being designed and developed.</p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow"><span></span> WHAT I BUILD</p>
+          <h2>Everything your website needs to <em>stand out.</em></h2>
+        </div>
+        <div class="services-grid">
+          <article class="service"><span class="service-no">01</span><div class="icon">⌘</div><h3>Business Websites</h3><p>Professional websites that explain what you do and make it easy for customers to contact you.</p></article>
+          <article class="service"><span class="service-no">02</span><div class="icon">◈</div><h3>Landing Pages</h3><p>Focused pages built around a clear offer, strong visual hierarchy and calls to action.</p></article>
+          <article class="service"><span class="service-no">03</span><div class="icon">▣</div><h3>Responsive Design</h3><p>Layouts that adapt smoothly across phones, tablets and desktops.</p></article>
+          <article class="service"><span class="service-no">04</span><div class="icon">⚡</div><h3>Performance</h3><p>Lightweight front-end builds with clean structure and attention to loading experience.</p></article>
+          <article class="service"><span class="service-no">05</span><div class="icon">◎</div><h3>Basic SEO Setup</h3><p>Semantic structure, metadata and on-page foundations to help search engines understand your site.</p></article>
+          <article class="service"><span class="service-no">06</span><div class="icon">↗</div><h3>Website Updates</h3><p>Content, layout and front-end improvements as your business continues to change.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="container process-grid">
+        <div>
+          <p class="eyebrow"><span></span> HOW IT WORKS</p>
+          <h2>A simple process.<br><em>No mystery.</em></h2>
+          <p class="section-copy">From the first idea to the final website, the goal is straightforward: understand the business, build the right experience and deliver a clean result.</p>
+          <a class="text-link" href="#contact">Start with an enquiry →</a>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Discover</h3><p>Understand the business, audience, goals, pages and required features.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Design</h3><p>Plan the visual direction, layout and user journey before development.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Develop</h3><p>Build the responsive website with clean HTML, CSS and JavaScript.</p></div></div>
+          <div class="step"><span>04</span><div><h3>Review & Deliver</h3><p>Test the pages, refine details and prepare the complete website files for deployment.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-card">
+        <div class="about-badge">D</div>
+        <div>
+          <p class="eyebrow"><span></span> ABOUT DELEXWEBDEV</p>
+          <h2>Five months in.<br><em>Still building.</em></h2>
+          <p>
+            DELEXWEBDEV is an independent web development brand focused on creating modern websites for businesses and individuals.
+            With 5 months of hands-on experience and 10+ websites created, the portfolio is actively growing through new builds,
+            experiments and real-world website projects.
+          </p>
+          <div class="tech-list">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>Responsive UI</span><span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow"><span></span> QUICK ANSWERS</p>
+          <h2>Before we <em>build.</em></h2>
+        </div>
+        <div class="faq-grid">
+          <details open><summary>Do I need a domain before starting?</summary><p>No. The website can be developed first. Domain and hosting can be arranged separately when you are ready to deploy.</p></details>
+          <details><summary>Will I receive the website files?</summary><p>Yes. The project can be delivered with the complete front-end source files and assets required for deployment.</p></details>
+          <details><summary>Can the website work on mobile?</summary><p>Yes. Responsive layouts are built for mobile, tablet and desktop screen sizes.</p></details>
+          <details><summary>Can I request changes?</summary><p>Yes. Project scope and revision details can be agreed before development begins.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-card">
+        <p class="eyebrow"><span></span> HAVE A PROJECT?</p>
+        <h2>Let's build something<br><em>worth visiting.</em></h2>
+        <p>Tell me what you need, what your business does and what you want the website to achieve.</p>
+        <a class="btn btn-primary" href="#contact-form">Start a Project <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact-form">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow"><span></span> PROJECT ENQUIRY</p>
+          <h2>Tell me about<br><em>your website.</em></h2>
+          <p class="section-copy">This demo form is front-end only. Connect it to your preferred email/form service before deployment.</p>
+        </div>
+        <form id="contactForm">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Business / Project<input type="text" name="project" placeholder="What are you building?" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Project details<textarea name="details" rows="5" placeholder="Tell me about the website..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Enquiry <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand"><span class="brand-mark">D</span><span>delex<span>webdev</span></span></div>
+      <p>Websites that grow businesses.</p>
+      <p>© <span id="year"></span> DELEXWEBDEV. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
